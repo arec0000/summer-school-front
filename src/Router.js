@@ -1,9 +1,21 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+import { RegAuthPage, Auth, Reg } from './RegAuth';
+
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <div>asdasd</div>
+    path: '/reg-auth',
+    element: <RegAuthPage />,
+    children: [
+      {
+        path: 'auth',
+        element: <Auth />
+      },
+      {
+        path: 'reg',
+        element: <Reg />
+      }
+    ]
   }
 ]);
 
