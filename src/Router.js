@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import { RegAuthPage, Auth, Reg } from './RegAuth';
+import { ProfilePage } from './Profile';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
         element: <Reg />
       }
     ]
+  },
+  {
+    path: '/profile',
+    element: <ProfilePage />
   }
 ]);
 

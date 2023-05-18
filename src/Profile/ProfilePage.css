@@ -1,0 +1,40 @@
+.profile {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F2F6;
+}
+
+.profile__container {
+    width: min(1000px, 100%);
+    margin: 0 auto;
+    padding: 34px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.profile__header {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    text-align: center;
+}
+
+.profile__note {
+    display: block;
+    margin-top: 30px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    text-align: center;
+}
+
+.profile__courseList {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}

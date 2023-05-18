@@ -1,6 +1,6 @@
 import { useLocation, Outlet } from 'react-router-dom';
 
-import './RegAuth.css';
+import './RegAuthPage.css';
 
 import regThumbnail from './imgs/socialEng.png';
 

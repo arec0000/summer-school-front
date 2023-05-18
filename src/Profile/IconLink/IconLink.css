@@ -1,0 +1,22 @@
+.iconLink {
+    color: #000;
+    text-decoration: none;
+}
+
+.iconLink__img {
+    display: block;
+    margin: 0 auto;
+    height: 60px;
+    width: 84px;
+}
+
+.iconLink__description {
+    display: block;
+    margin-top: 4px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    text-align: center;
+    white-space: nowrap;
+}
