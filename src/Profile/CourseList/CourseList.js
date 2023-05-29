@@ -20,7 +20,7 @@ export function CourseList() {
             />
           </div>
         </div>
-        <div>
+        <div className="courseList__noteWrapper">
           <h2 className="courseList__header">
             Пройдено ранее
           </h2>

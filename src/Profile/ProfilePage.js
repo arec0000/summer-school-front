@@ -8,7 +8,7 @@ import './ProfilePage.css'
 export function ProfilePage() {
   return (
     <div className="profile">
-      <Header />
+      <Header userName="Яценко Александр" />
       <main className="profile__container">
         <Outlet />
       </main>

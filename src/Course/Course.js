@@ -11,18 +11,18 @@ export function Course() {
       <Header />
       <main className="course__container">
         <div className="mainContainer">
-            <h1 className="mainArcticle">О курсе</h1>
+            <h1 className="mainArcticle">О КУРСЕ</h1>
             <div className="homeContainer">
                 <div className="">
-                <h2 className="Arcticle">Не очень умный дом</h2>
+                <h2 className="Arcticle">Умный дом</h2>
                 <p className="MainText">
-                    На этом курсе команды  не будут знакомиться с системами современных умных домов и не сделают собственный прототип дома и вообще будет пусто и скучно
+                  На этом курсе команды будут знакомиться с системами современных умных домов и сделают собственный прототип
                 </p>
                 </div>
                 <img src={img} alt="" className="mainImg" />
             </div>
             <div className="direct">
-                <h1 className="mainArcticle">Направления подготовки</h1>
+                <h1 className="mainArcticle">НАПРАВЛЕНИЯ ПОДГОТОВКИ</h1>
                 <div className="directBox">
                     <div className="boxItem">
                         <h3 className="itemArcticle">IT</h3>
@@ -51,7 +51,7 @@ export function Course() {
                 </div>
             </div>
             <div className="teachers">
-                <h1 className="mainArcticle">Преподаватели</h1>
+                <h1 className="mainArcticle">ПРЕПОДАВАТЕЛИ</h1>
                 <div className="nameTeacher">
                     <div className="nameBox">
                         <h3 className="arcticleTeacher">Фамилия Имя</h3>

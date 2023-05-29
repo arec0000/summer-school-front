@@ -12,12 +12,7 @@ import img3 from '../assets/main/image3.png'
 export function Main() {
   const navigate = useNavigateToTop()
 
-  function handleClick(e) {
-    e.preventDefault()
-    if (e.target.classList.contains('send')) {
-      navigate('/reg-auth/reg/')
-      return
-    }
+  function handleClick() {
     navigate('/course/smart-home/')
   }
 
@@ -27,7 +22,7 @@ export function Main() {
       <main className="main__container">
         <div className="mainContainer">
 
-          <h1 className="main-arcticle">О нас</h1>
+          <h1 className="main-arcticle">О НАС</h1>
           <div className="summerSchool">
             <div className="">
               <h2 className="Arcticle">Что такое летняя школа?</h2>
@@ -65,25 +60,25 @@ export function Main() {
         </div>
 
         <div className="course">
-          <h1 className="main-arcticle">Наши курсы</h1>
+          <h1 className="main-arcticle">НАШИ КУРСЫ</h1>
           <div className="courseContainer">
             <button className="block block_linked" onClick={handleClick}>
-              <h3 className="courseArcticle">Не очень умный дом</h3>
+              <h3 className="courseArcticle">Умный дом</h3>
               <p className="courseText">
-                На этом курсе команды  не будут знакомиться с системами современных умных домов и сделают собственный прототип и вообще будет пусто
+                На этом курсе команды будут знакомиться с системами современных умных домов и сделают собственный прототип
               </p>
               <div className="price">
                 <p className="courseText" >3 недели     •   15.000р</p>
-                <a className="send" href="/reg-auth/reg/">
-                  Записаться
-                </a>
+                <span className="send">
+                  Подробнее
+                </span>
               </div>
             </button>
 
             <div className="block block_disabled">
-              <h3 className="courseArcticle">Умный дом</h3>
+              <h3 className="courseArcticle">Не очень умный дом</h3>
               <p className="courseText">
-                На этом курсе команды  не будут знакомиться с системами современных умных домов и сделают собственный прототип и вообще будет пусто
+                На этом курсе команды не будут знакомиться с системами современных умных домов и вообще будут заниматься чем-то другим
               </p>
               <p className="soon">Будет позже...</p>
             </div>

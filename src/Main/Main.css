@@ -8,7 +8,7 @@
 .main__container {
     width: min(1390px, 100%);
     margin: 0 auto;
-    padding: 90px 20px 180px;
+    padding: 90px 20px 240px;
     flex-grow: 1;
     font-family: 'Inter', sans-serif;
 }

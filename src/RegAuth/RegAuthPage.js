@@ -1,17 +1,20 @@
 import { useLocation, Outlet } from 'react-router-dom';
 
+import { Header } from '../Header/Header';
+import { Footer } from '../Footer/Footer';
+
 import './RegAuthPage.css';
 
 import regThumbnail from './imgs/socialEng.png';
 
 const content = [
   {
-    path: 'reg',
+    path: 'reg-authreg',
     header: 'Регистрация',
     img: regThumbnail
   },
   {
-    path: 'auth',
+    path: 'reg-authauth',
     header: 'Авторизация',
     img: regThumbnail
   }
@@ -20,13 +23,11 @@ const content = [
 export function RegAuthPage() {
   const { pathname } = useLocation();
 
-  console.log(pathname)
-
   return (
     <div className="regAuth">
-      {/* header */}
+      <Header />
       <div className="regAuth__container">
-        <h1 className="regAuth__header">{content.find(el => pathname.includes(el.path))?.header}</h1>
+        <h1 className="regAuth__header">{content.find(el => pathname.replace(/\//g, '').includes(el.path))?.header}</h1>
         <div className="regAuth__content">
           <div className="regAuth__img">
             {/* <img
@@ -39,7 +40,7 @@ export function RegAuthPage() {
           </div>
         </div>
       </div>
-      {/* footer */}
+      <Footer />
     </div>
   )
 }

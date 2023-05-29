@@ -1,4 +1,5 @@
-import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import { useNavigateToTop } from '../hooks/useNavigateToTop'
 
 import './Header.css'
 
@@ -7,37 +8,37 @@ import tg from '../assets/tg.svg'
 import whatsapp from '../assets/whatsApp.svg'
 import vk from '../assets/vk.svg'
 
-export function Header() {
-  const navigate = useNavigate()
+export function Header({ userName }) {
+  const navigate = useNavigateToTop()
   return (
     <header className="header">
       <div className="header__container">
-        <a
+        <Link
           className="header_button_logo"
-          href="https://donstux.com/"
+          to="/"
         >
           <img
             className="header_logo"
             src={logo}
             alt="logo"
           />
-        </a>
+        </Link>
         <div className="header__links">
-          <a className="header__link" href="https://donstux.com/">
+          <a className="header__link" href="https://t.me/donstux">
             <img
               className="header_tg"
               src={tg}
               alt="tg"
             />
           </a>
-          <a className="header__link" href="https://donstux.com/">
+          <a className="header__link" href="tel:+7(904) 505 26 44">
             <img
               className="header_whatsApp"
               src={whatsapp}
               alt="whatsApp"
             />
           </a>
-          <a className="header__link" href="https://donstux.com/">
+          <a className="header__link" href="https://vk.com/donstux">
             <img
               className="header_vk"
               src={vk}
@@ -45,8 +46,13 @@ export function Header() {
             />
           </a>
         </div>
-        <button className="header_button_account" onClick={() => navigate('/reg-auth/auth/')}>
-          Войти
+        <button className="header_button_account" onClick={() => {
+          if (userName) {
+            navigate('/profile/course-list')
+          }
+          navigate('/reg-auth/auth/')
+        }}>
+          {userName ?? 'Войти'}
         </button>
       </div>
     </header>
