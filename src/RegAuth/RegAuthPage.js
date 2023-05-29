@@ -15,7 +15,7 @@ const content = [
   },
   {
     path: 'reg-authauth',
-    header: 'Авторизация',
+    header: 'Аутентификация',
     img: regThumbnail
   }
 ]
