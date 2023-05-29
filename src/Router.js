@@ -1,9 +1,14 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+import { Main } from './Main/Main';
 import { RegAuthPage, Auth, Reg } from './RegAuth';
 import { ProfilePage, CourseList, Feedback, Goals, Calendar } from './Profile';
 
 const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Main />
+  },
   {
     path: '/reg-auth',
     element: <RegAuthPage />,

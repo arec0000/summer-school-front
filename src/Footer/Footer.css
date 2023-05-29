@@ -123,3 +123,7 @@
     text-decoration: none;
     background-color: rgba(33, 33, 33, 1);
 }
+
+.footer_link:hover {
+    text-decoration: underline;
+}
