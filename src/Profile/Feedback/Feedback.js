@@ -9,7 +9,7 @@ export function Feedback() {
         initialValues={{
           feedback: ''
         }}
-        onSubmit={(values, { resetForm }) => {
+        onSubmit={(values) => {
           console.log(values);
         }}
       >

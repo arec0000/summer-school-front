@@ -1,0 +1,72 @@
+.goals__header {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.goals__note {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid #FF8540;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.goals__note ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.goals__subtitle {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FF8540;
+}
+
+.goals__input {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    min-height: 300px;
+    margin-top: 30px;
+    resize: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FF8540;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.goals__btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 68px;
+    margin-top: 40px;
+}
+
+.goals__btn {
+    padding: 12px 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #212426;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 39px;
+}
+
+.goals__btn_green {
+    background-color: #B2F470;
+}

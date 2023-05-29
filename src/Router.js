@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import { RegAuthPage, Auth, Reg } from './RegAuth';
-import { ProfilePage, CourseList, Feedback } from './Profile';
+import { ProfilePage, CourseList, Feedback, Goals } from './Profile';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: 'feedback',
         element: <Feedback />
+      },
+      {
+        path: 'goals',
+        element: <Goals />
       }
     ]
   }
