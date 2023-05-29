@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import { Formik, Form, Field } from 'formik';
+import { useNavigateToTop } from '../../hooks/useNavigateToTop';
 
 export function Auth() {
+  const navigate = useNavigateToTop()
   return (
     <Formik
       initialValues={{
@@ -9,7 +11,7 @@ export function Auth() {
         password: ''
       }}
       onSubmit={(values, { resetForm }) => {
-        console.log(values);
+        navigate('/profile/course-list')
         resetForm();
       }}
     >

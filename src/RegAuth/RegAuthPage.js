@@ -29,10 +29,10 @@ export function RegAuthPage() {
         <h1 className="regAuth__header">{content.find(el => pathname.includes(el.path))?.header}</h1>
         <div className="regAuth__content">
           <div className="regAuth__img">
-            <img
+            {/* <img
               src={content.find(el => pathname.includes(el.path))?.img}
               alt="page thumbnail"
-            />
+            /> */}
           </div>
           <div className="regAuth__form">
             <Outlet />
