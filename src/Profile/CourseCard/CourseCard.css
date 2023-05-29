@@ -20,13 +20,9 @@
     object-fit: cover;
 }
 
-.courseCard__content {
-
-}
-
 .courseCard__header {
     font-family: Inter, sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 1.8125rem;
 }
@@ -35,11 +31,11 @@
     overflow: hidden;
     display: -webkit-box;
     margin-top: 20px;
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     font-family: Inter, sans-serif;
-    font-size: 1rem;
-    line-height: 1.1875rem;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
 }
 
 .courseCard__links {

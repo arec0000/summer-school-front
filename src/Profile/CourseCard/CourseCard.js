@@ -12,7 +12,7 @@ export function CourseCard({ to, img, header, description }) {
   return (
     <Link className="courseCard" to={to}>
       <img className="courseCard__img" src={img} alt="course thumbnail" />
-      <div className="courseCard__content">
+      <div>
         <h2 className="courseCard__header">{header}</h2>
         <span className="courseCard__description">{description}</span>
       </div>
