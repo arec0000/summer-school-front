@@ -58,7 +58,7 @@
     border-radius: 10px;
 }
 
-@media (width <= 475px) {
+@media (width <= 800px) {
     .header__container {
         height: 70px;
         padding: 0 8px;

@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.851be939.css",
+    "main.js": "/static/js/main.1d8dd5f6.js",
+    "static/media/image2.png": "/static/media/image2.76a44c3e99a19776edc1.png",
+    "static/media/socialEng.png": "/static/media/socialEng.139c7d11b4dc0c0816d3.png",
+    "static/media/image1.png": "/static/media/image1.37a25840ce75770c3065.png",
+    "static/media/Inter-Bold.woff": "/static/media/Inter-Bold.3fa089571285451f23b9.woff",
+    "static/media/Inter-SemiBold.woff": "/static/media/Inter-SemiBold.448d94ea66e30f53b3e4.woff",
+    "static/media/Inter-Medium.woff": "/static/media/Inter-Medium.9e45874532a23709f6c1.woff",
+    "static/media/Inter-Regular.woff": "/static/media/Inter-Regular.3b52c99321b40020e6a3.woff",
+    "static/media/logo_white.svg": "/static/media/logo_white.016a871ae74a77291218ea12a313b38f.svg",
+    "static/media/logo.svg": "/static/media/logo.d94291c19e8725cf1eba089b5bbefd8a.svg",
+    "static/media/image3.png": "/static/media/image3.6dae6be40910a0759d40.png",
+    "static/media/house.png": "/static/media/house.bb0aaae8e4e5e25d38d3.png",
+    "static/media/image4.png": "/static/media/image4.3c4eca16a22b224f59a9.png",
+    "static/media/goal.png": "/static/media/goal.2d5a0ff7bfab784e03e0.png",
+    "static/media/feedback.png": "/static/media/feedback.320ce13b5efc1ab82876.png",
+    "static/media/whatsApp.svg": "/static/media/whatsApp.bec6163bd3d974affc6e1ea596e8f3fa.svg",
+    "static/media/vk.svg": "/static/media/vk.bfb81b339ab4c33fbbd0d800ba547f62.svg",
+    "static/media/tg.svg": "/static/media/tg.ec89721dff08ccad09d210fe28815953.svg",
+    "index.html": "/index.html",
+    "main.851be939.css.map": "/static/css/main.851be939.css.map",
+    "main.1d8dd5f6.js.map": "/static/js/main.1d8dd5f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.851be939.css",
+    "static/js/main.1d8dd5f6.js"
+  ]
+}
