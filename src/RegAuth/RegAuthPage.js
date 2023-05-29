@@ -4,16 +4,18 @@ import './RegAuthPage.css';
 
 import regThumbnail from './imgs/socialEng.png';
 
-const content = {
-  '/reg-auth/reg/': {
+const content = [
+  {
+    path: 'reg',
     header: 'Регистрация',
     img: regThumbnail
   },
-  '/reg-auth/auth/': {
+  {
+    path: 'auth',
     header: 'Авторизация',
     img: regThumbnail
   }
-}
+]
 
 export function RegAuthPage() {
   const { pathname } = useLocation();
@@ -24,11 +26,11 @@ export function RegAuthPage() {
     <div className="regAuth">
       {/* header */}
       <div className="regAuth__container">
-        <h1 className="regAuth__header">{content[pathname]?.header}</h1>
+        <h1 className="regAuth__header">{content.find(el => pathname.includes(el.path))?.header}</h1>
         <div className="regAuth__content">
           <div className="regAuth__img">
             <img
-              src={content[pathname]?.img}
+              src={content.find(el => pathname.includes(el.path))?.img}
               alt="page thumbnail"
             />
           </div>

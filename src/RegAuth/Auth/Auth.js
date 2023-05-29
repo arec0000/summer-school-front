@@ -30,12 +30,12 @@ export function Auth() {
             />
           </div>
           <div className="form__controls">
-            <Link className="form__redirect" to="/reg-auth/reg/">
-              Зарегестрироваться
-            </Link>
             <button className="form__btn" type="submit">
               Войти
             </button>
+            <Link className="form__redirect" to="/reg-auth/reg/">
+              Зарегестрироваться
+            </Link>
           </div>
         </Form>
       )}

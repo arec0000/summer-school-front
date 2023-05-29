@@ -51,12 +51,12 @@ export function Reg() {
             />
           </div>
           <div className="form__controls">
-            <Link className="form__redirect" to="/reg-auth/auth/">
-              Авторизоваться
-            </Link>
             <button className="form__btn" type="submit">
               Зарегестрироваться
             </button>
+            <Link className="form__redirect" to="/reg-auth/auth/">
+              У меня уже есть аккаунт
+            </Link>
           </div>
         </Form>
       )}
