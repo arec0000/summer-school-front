@@ -1,0 +1,125 @@
+.footer{
+    background: rgba(33, 33, 33, 1);
+}
+
+.footer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.foter_container {
+    width: min(100%, 1440px);
+    margin: 0 auto;
+    padding: 24px 20px 40px;
+}
+
+.footer_content {
+    display: flex;
+    gap: 38px;
+    margin-top: 24px;
+}
+
+.footer_button_logo{
+    display: block;
+    position: relative;
+    width: 128px;
+    height: 50px;
+}
+
+.footer_text_1{
+    color:white;
+    max-width: 340px;
+    font-family: Inter;
+    font-family: 1.125rem;
+    line-height: 1.375rem;
+    background-color:rgba(33, 33, 33, 1);
+}
+
+.footer_text_mail{
+    display: block;
+    margin-top: 40px;
+    color: #FFFFFF;
+    background-color: rgba(33, 33, 33, 1);
+    font-family: Inter;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none
+}
+
+.footer_text_phoneNumber{
+    display: block;
+    margin-top: 16px;
+    white-space: nowrap;
+    color: rgba(255, 92, 0, 1);
+    background-color: rgba(33, 33, 33, 1);
+    width: 177px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none
+}
+
+.footer_info {
+    margin-right: auto;
+}
+
+.footer_form{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    min-height: 200px;
+    max-width: 200px;
+    text-decoration: none;
+    padding: 20px 16px;
+    background-color: #FFFFFF;
+    border:2px solid #FF5C00;
+    border-radius: 10px;
+    font-family: 'Inter';
+}
+
+.footer_form_header{
+    display: block;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #FF5C00;
+    text-decoration: none
+}
+
+.footer_form_text{
+    font-size: 15px;
+    line-height: 19px;
+    margin-top: 14px;
+    color: #000000;
+}
+
+.footer_form_img{
+    display: block;
+    position: relative;
+    margin-top: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.footer_links {
+    display: flex;
+    gap: 80px;
+    margin-top: 32px;
+}
+
+.footer_link {
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: rgba(33, 33, 33, 1);
+}

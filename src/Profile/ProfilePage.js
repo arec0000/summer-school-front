@@ -1,9 +1,10 @@
-import { CourseCard } from './CourseCard/CourseCard';
-import { Header } from '../Header/Header';
+import { CourseCard } from './CourseCard/CourseCard'
+import { Header } from '../Header/Header'
+import { Footer } from '../Footer/Footer'
 
-import './ProfilePage.css';
+import './ProfilePage.css'
 
-import house from './imgs/house.png';
+import house from './imgs/house.png'
 
 export function ProfilePage() {
   return (
@@ -32,7 +33,7 @@ export function ProfilePage() {
           </span>
         </div>
       </div>
-      {/* footer */}
+      <Footer />
     </div>
   )
 }

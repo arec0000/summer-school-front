@@ -11,42 +11,44 @@ export function Header() {
   const navigate = useNavigate()
   return (
     <header className="header">
-      <a
-        className="header_button_logo"
-        href="https://donstux.com/"
-      >
-        <img
-          className="header_logo"
-          src={logo}
-          alt="logo"
-        />
-      </a>
-      <div className="header__links">
-        <a className="header__link" href="https://donstux.com/">
+      <div className="header__container">
+        <a
+          className="header_button_logo"
+          href="https://donstux.com/"
+        >
           <img
-            className="header_tg"
-            src={tg}
-            alt="tg"
+            className="header_logo"
+            src={logo}
+            alt="logo"
           />
         </a>
-        <a className="header__link" href="https://donstux.com/">
-          <img
-            className="header_whatsApp"
-            src={whatsapp}
-            alt="whatsApp"
-          />
-        </a>
-        <a className="header__link" href="https://donstux.com/">
-          <img
-            className="header_vk"
-            src={vk}
-            alt="vk"
-          />
-        </a>
+        <div className="header__links">
+          <a className="header__link" href="https://donstux.com/">
+            <img
+              className="header_tg"
+              src={tg}
+              alt="tg"
+            />
+          </a>
+          <a className="header__link" href="https://donstux.com/">
+            <img
+              className="header_whatsApp"
+              src={whatsapp}
+              alt="whatsApp"
+            />
+          </a>
+          <a className="header__link" href="https://donstux.com/">
+            <img
+              className="header_vk"
+              src={vk}
+              alt="vk"
+            />
+          </a>
+        </div>
+        <button className="header_button_account" onClick={() => navigate('/reg-auth/auth/')}>
+          Войти
+        </button>
       </div>
-      <button className="header_button_account" onClick={() => navigate('/reg-auth/auth/')}>
-        Войти
-      </button>
     </header>
   )
 }
