@@ -4,9 +4,9 @@ import { IconLink } from '../IconLink/IconLink';
 
 import './CourseCard.css';
 
-import goal from '../imgs/goal.png';
-import shedule from '../imgs/schedule.png';
-import feedback from '../imgs/feedback.png';
+import goal from '../../imgs/goal.png';
+import shedule from '../../imgs/schedule.png';
+import feedback from '../../imgs/feedback.png';
 
 export function CourseCard({ to, img, header, description }) {
   return (
