@@ -1,0 +1,142 @@
+.course {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F2F6;
+}
+
+.course__container {
+    width: min(1390px, 100%);
+    margin: 0 auto;
+    padding: 90px 20px 180px;
+    flex-grow: 1;
+    font-family: 'Inter', sans-serif;
+}
+
+.course__container img {
+    object-fit: cover;
+    pointer-events: none;
+    user-select: none;
+}
+
+/*СТИЛИЗУЕМ MAIN */
+
+main{
+    margin: 0 5%;
+}
+
+.homeContainer{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.MainText{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Arcticle{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    color: #FF5C00;
+}
+
+.mainArcticle{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    padding: 60px 0 40px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.mainImg{
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+/* ------------------------------- */
+.directBox{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.itemArcticle{
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #212426;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.boxItem{
+    padding: 20px;
+    background: rgba(255, 92, 0, 0.7);
+    border: 1px solid #212426;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.itemText{
+    list-style: none;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 500;
+    color: #212426;
+}
+
+/* -------------------------------- */
+.arcticleTeacher{
+    font-size: 32px;
+    line-height: 39px;
+    color: #FF5C00;
+}
+
+.nameBox{
+    margin:0 12%;
+}
+
+.nameTeacher{
+    margin: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nameTeacher:first-of-type {
+    margin-top: 0;
+}
+
+.nameTeacher:last-of-type {
+    margin-bottom: 0;
+}
+
+.itemName{
+    list-style: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.photo{
+    border: 1px solid #FF5C00;
+    border-radius: 10px;
+    padding: 6% 10%;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}

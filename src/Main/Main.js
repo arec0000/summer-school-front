@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+import { useNavigateToTop } from '../hooks/useNavigateToTop'
 
 import { Header } from '../Header/Header'
 import { Footer } from '../Footer/Footer'
@@ -10,7 +10,16 @@ import img2 from '../assets/main/image2.png'
 import img3 from '../assets/main/image3.png'
 
 export function Main() {
-  const navigate = useNavigate()
+  const navigate = useNavigateToTop()
+
+  function handleClick(e) {
+    e.preventDefault()
+    if (e.target.classList.contains('send')) {
+      navigate('/reg-auth/reg/')
+      return
+    }
+    navigate('/course/smart-home/')
+  }
 
   return (
     <div className="main">
@@ -58,18 +67,18 @@ export function Main() {
         <div className="course">
           <h1 className="main-arcticle">Наши курсы</h1>
           <div className="courseContainer">
-            <div className="block">
+            <button className="block block_linked" onClick={handleClick}>
               <h3 className="courseArcticle">Не очень умный дом</h3>
               <p className="courseText">
                 На этом курсе команды  не будут знакомиться с системами современных умных домов и сделают собственный прототип и вообще будет пусто
               </p>
               <div className="price">
                 <p className="courseText" >3 недели     •   15.000р</p>
-                <button className="send" onClick={() => navigate('/reg-auth/reg/')}>
+                <a className="send" href="/reg-auth/reg/">
                   Записаться
-                </button>
+                </a>
               </div>
-            </div>
+            </button>
 
             <div className="block block_disabled">
               <h3 className="courseArcticle">Умный дом</h3>
