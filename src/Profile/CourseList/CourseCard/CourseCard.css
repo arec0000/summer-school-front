@@ -4,7 +4,6 @@
     height: 180px;
     padding: 14px 30px 24px 200px;
     border-radius: 10px;
-    overflow: hidden;
     background-color: #FF8D4D;
     border: 1px solid #000;
     text-decoration: none;
@@ -43,4 +42,35 @@
     align-items: flex-end;
     gap: 30px;
     margin-left: 40px;
+}
+
+@media (width <= 800px) {
+    .courseCard {
+        flex-direction: column;
+        padding: 14px 10px 24px;
+        height: auto;
+    }
+
+    .courseCard__description {
+        margin-top: 10px;
+    }
+
+    .courseCard__img {
+        display: none;
+    }
+
+    .courseCard__header {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+
+    .courseCard__description {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .courseCard__links {
+        margin: 20px 0 0;
+        justify-content: center;
+    }
 }

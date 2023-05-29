@@ -70,3 +70,49 @@
 .goals__btn_green {
     background-color: #B2F470;
 }
+
+@media (width <= 800px) {
+    .goals__header {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+
+    .goals__subtitle {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .goals__input {
+        margin: 0;
+        font-size: 1rem;
+        padding: 10px 14px;
+    }
+
+    .goals__btn {
+        padding: 18px 10px;
+        font-size: 1rem;
+        line-height: 1rem;
+        flex-grow: 1;
+    }
+
+    .goals__note {
+        padding: 10px 14px;
+        gap: 14px;
+    }
+
+    .goals__note ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .goals__note li {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .goals__btns {
+        margin-top: 40px;
+        gap: 20px;
+    }
+}

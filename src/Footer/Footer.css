@@ -121,9 +121,44 @@
     line-height: 17px;
     color: #FFFFFF;
     text-decoration: none;
-    background-color: rgba(33, 33, 33, 1);
 }
 
 .footer_link:hover {
     text-decoration: underline;
+}
+
+@media (width <= 800px) {
+    .footer_content {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .footer_text_mail {
+        margin-top: 30px;
+    }
+
+    .footer_text_phoneNumber {
+        margin-top: 12px;
+    }
+
+    .footer_form {
+        padding: 14px 10px;
+        min-height: auto;
+        max-width: 100%;
+    }
+
+    .footer_form_text {
+        margin-top: 6px;
+    }
+
+    .footer_form_img {
+        margin-top: 14px;
+    }
+
+    .footer_links {
+        flex-direction: column;
+        gap: 18px;
+        color: #fff;
+        text-decoration: underline;
+    }
 }

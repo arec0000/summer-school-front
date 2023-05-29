@@ -9,3 +9,14 @@
 .calendar__iframe {
     height: 700px;
 }
+
+@media (width <= 800px) {
+    .calendar__header {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+
+    .calendar__iframe {
+        height: 600px;
+    }
+}

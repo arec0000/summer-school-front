@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import { Main } from './Main/Main';
 import { Course } from './Course/Course';
 import { RegAuthPage, Auth, Reg } from './RegAuth';
 import { ProfilePage, CourseList, Feedback, Goals, Calendar } from './Profile';
+import { Main } from './Main/Main';
 
 const router = createBrowserRouter([
   {

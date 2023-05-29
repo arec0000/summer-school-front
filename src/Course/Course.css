@@ -1,5 +1,4 @@
 .course {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #F0F2F6;
@@ -17,6 +16,8 @@
     object-fit: cover;
     pointer-events: none;
     user-select: none;
+    border-radius: 0;
+    border: none;
 }
 
 /*СТИЛИЗУЕМ MAIN */
@@ -140,3 +141,71 @@ ul{
     line-height: 44px;
     color: #000000;
 }
+
+@media (width <= 800px) {
+    .Arcticle {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+        margin-bottom: 10px;
+    }
+
+    .homeContainer {
+        flex-direction: column-reverse;
+    }
+
+    .directBox {
+        flex-direction: column;
+    }
+
+    .photo {
+        font-size: 1rem;
+        border-radius: 8px;
+    }
+
+    .arcticleTeacher {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+    .MainText {
+        font-size: 1rem;
+    }
+
+    .nameBox {
+        margin: 0;
+    }
+
+    .mainArcticle {
+        font-size: 1.6rem;
+        padding: 30px 0 20px;
+    }
+
+    .itemArcticle {
+        font-size: 1.2rem;
+        text-align: start;
+        padding-left: 10px;
+        font-weight: 500;
+        line-height: 1.4rem;
+        margin-bottom: 4px;
+    }
+
+    .itemText {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+
+    .itemName {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .nameTeacher {
+        margin-top: 40px;
+    }
+
+    .course__container {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+}
+

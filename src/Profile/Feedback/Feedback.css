@@ -43,3 +43,28 @@
 .feedback__btn_green {
     background-color: #B2F470;
 }
+
+@media (width <= 800px) {
+    .feedback__header {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+
+    .feedback__input {
+        margin: 0;
+        font-size: 1rem;
+        padding: 10px 14px;
+    }
+
+    .feedback__btn {
+        padding: 18px 10px;
+        font-size: 1rem;
+        line-height: 1rem;
+        flex-grow: 1;
+    }
+
+    .feedback__btns {
+        margin-top: 40px;
+        gap: 20px;
+    }
+}

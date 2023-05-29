@@ -109,3 +109,34 @@
     background-color: #ec6b20;
 }
 
+@media (width <= 700px) {
+    .regAuth__content {
+        display: block;
+    }
+
+    .regAuth__img {
+        display: none;
+    }
+
+    .regAuth__form {
+        padding: 20px 16px;
+    }
+
+    .form__fields {
+        gap: 20px;
+    }
+
+    .form__input {
+        padding: 8px;
+        font-size: 1rem;
+    }
+
+    .form__btn {
+        font-size: 1rem;
+    }
+
+    .form__controls {
+        margin-top: 30px;
+        gap: 20px;
+    }
+}

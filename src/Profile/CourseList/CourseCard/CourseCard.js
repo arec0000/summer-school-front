@@ -15,9 +15,9 @@ export function CourseCard({ img, header, description }) {
         <span className="courseCard__description">{description}</span>
       </div>
       <div className="courseCard__links">
-        <IconLink to="/" img={goal} description="Цели" />
-        <IconLink to="/" img={shedule} description="Расписание" />
-        <IconLink to="/" img={feedback} description="Обратная связь" />
+        <IconLink to="/profile/goals" img={goal} description="Цели" />
+        <IconLink to="/profile/calendar" img={shedule} description="Расписание" />
+        <IconLink to="/profile/feedback" img={feedback} description="Обратная связь" />
       </div>
     </div>
   )

@@ -21,3 +21,14 @@
     text-align: center;
     white-space: nowrap;
 }
+
+@media (width <= 800px) {
+    .iconLink__img {
+        height: 36px;
+        width: 50px;
+    }
+
+    .iconLink__description {
+        font-size: .9rem;
+    }
+}
