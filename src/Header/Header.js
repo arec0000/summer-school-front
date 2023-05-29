@@ -8,7 +8,7 @@ import tg from '../assets/tg.svg'
 import whatsapp from '../assets/whatsApp.svg'
 import vk from '../assets/vk.svg'
 
-export function Header({ userName }) {
+export function Header({ username }) {
   const navigate = useNavigateToTop()
   return (
     <header className="header">
@@ -47,12 +47,13 @@ export function Header({ userName }) {
           </a>
         </div>
         <button className="header_button_account" onClick={() => {
-          if (userName) {
+          if (username) {
             navigate('/profile/course-list')
+            return
           }
           navigate('/reg-auth/auth/')
         }}>
-          {userName ?? 'Войти'}
+          {username ?? 'Войти'}
         </button>
       </div>
     </header>

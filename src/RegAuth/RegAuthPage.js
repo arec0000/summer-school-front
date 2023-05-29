@@ -10,12 +10,12 @@ import regThumbnail from './imgs/socialEng.png';
 const content = [
   {
     path: 'reg-authreg',
-    header: 'Регистрация',
+    header: 'Зарегестрироваться',
     img: regThumbnail
   },
   {
     path: 'reg-authauth',
-    header: 'Аутентификация',
+    header: 'Войти',
     img: regThumbnail
   }
 ]
