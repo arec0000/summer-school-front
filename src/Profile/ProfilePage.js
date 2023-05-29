@@ -1,4 +1,5 @@
 import { CourseCard } from './CourseCard/CourseCard';
+import { Header } from '../Header/Header';
 
 import './ProfilePage.css';
 
@@ -7,7 +8,7 @@ import house from './imgs/house.png';
 export function ProfilePage() {
   return (
     <div className="profile">
-      {/* header */}
+      <Header />
       <div className="profile__container">
         <div>
           <h2 className="profile__header">
